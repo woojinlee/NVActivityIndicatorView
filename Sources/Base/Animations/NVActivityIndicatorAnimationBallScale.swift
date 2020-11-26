@@ -31,7 +31,7 @@ import UIKit
 class NVActivityIndicatorAnimationBallScale: NVActivityIndicatorAnimationDelegate {
 
     func setUpAnimation(in layer: CALayer, size: CGSize, color: UIColor) {
-        let duration: CFTimeInterval = 1
+        let duration: CFTimeInterval = 3
 
         // Scale animation
         let scaleAnimation = CABasicAnimation(keyPath: "transform.scale")
